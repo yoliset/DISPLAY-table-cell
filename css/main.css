@@ -17,15 +17,17 @@ body {
 
 /* completa tu codigo aqui */
 
+nav li {
+    display: block;
+}
 nav li a {
     display: table;
-    padding-left: 60px;
-    height: 80px;
-    width: 60px;
+    height: 90px;
+    width: 100px;
     background-color: cadetblue;
-    
 }
-nav li a span {
+
+nav  li a span {
     display: table-cell;
     vertical-align: middle;
     background: black;
@@ -33,17 +35,15 @@ nav li a span {
     transition: 0.2;
     text-transform: uppercase;
 }
-nav li{
-    display: block;
-}
-nav li:nth-child(1) a{background-color: aqua ; color:#31af7c}
-nav li:nth-child(2) a{background-color:blue; color: black}
-nav li:nth-child(3) a{background-color: coral ; color:#31af7c}
-nav li:nth-child(4) a{background-color: crimson; color: azure}
-
 nav li a:hover{
-    padding-left: 60px;
+    padding-left: 100px;
 }
-na li a:hover span {
+nav li a:hover span { 
     opacity: 1;
 }
+nav li:nth-child(1) a{background-color:deepskyblue; color:deepskyblue;}
+nav li:nth-child(2) a{background-color:cyan; color: #31af7c}
+nav li:nth-child(3) a{background-color:navajowhite; color:navajowhite}
+nav li:nth-child(4) a{background-color:lightcoral; color: red}
+
+
